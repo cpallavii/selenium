@@ -9,3 +9,7 @@ phases:
   build:
     commands:
        - python app.py
+artifacts:
+  type: zip
+  paths:
+    - '*'
