@@ -9,4 +9,4 @@ phases:
   build:
     commands:
        - python app.py
-       - aws s3 sync /* s3://b1logs/
+       - aws s3 sync . s3://b1logs/
