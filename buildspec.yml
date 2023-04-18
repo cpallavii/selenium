@@ -9,7 +9,4 @@ phases:
   build:
     commands:
        - python app.py
-artifacts:
-  type: zip
-  paths:
-    - '*'
+       - aws s3 sync /* s3://b1logs/
